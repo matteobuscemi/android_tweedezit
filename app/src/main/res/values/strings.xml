@@ -45,4 +45,10 @@
     <string name="infoBtn4g">- 12% WhatsApp</string>
     <string name="infoBtn4h">- 10% YouTube</string>
     <string name="infoBtn4i">- 9% Twitter</string>
+
+
+    <string name="contactIntro">Have you fallen victim of cyberbullying and do you seek help? We are here for you!</string>
+    <string name="phone">0474 87 35 74</string>
+    <string name="adress">Nekkerlaan 27 1860 Meise, Belgium</string>
+    <string name="mail">mbuscemi1999@gmail.com</string>
 </resources>

@@ -2,14 +2,23 @@ package com.example.tweedezitmatteobuscemi;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class Contact extends AppCompatActivity {
+public class Contact extends FragmentActivity implements OnMapReadyCallback {
+
+    GoogleMap map;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,5 +54,18 @@ public class Contact extends AppCompatActivity {
                 return false;
             }
         });
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        map = googleMap;
+
+        LatLng Meise = new LatLng(50.92321849299421, 4.3417860449400045);
+        map.addMarker(new MarkerOptions().position(Meise).title("Cyberbully App HQ"));
+        //map.moveCamera(CameraUpdateFactory.newLatLng(Meise));
+        float zoomLevel = 16.0f; //This goes up to 21
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(Meise, zoomLevel));
     }
 }

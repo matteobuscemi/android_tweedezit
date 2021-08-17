@@ -46,4 +46,10 @@
     <string name="infoBtn4g">- 12% WhatsApp</string>
     <string name="infoBtn4h">- 10% YouTube</string>
     <string name="infoBtn4i">- 9% Twitter</string>
+
+
+    <string name="contactIntro">Ben jij slachtoffer van cyberpesten en zoek je hulp? Wij zijn er voor jou!</string>
+    <string name="phone">0474 87 35 74</string>
+    <string name="adress">Nekkerlaan 27 1860 Meise, België</string>
+    <string name="mail">mbuscemi1999@gmail.com</string>
 </resources>
