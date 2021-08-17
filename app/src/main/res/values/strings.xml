@@ -51,4 +51,9 @@
     <string name="phone">0474 87 35 74</string>
     <string name="adress">Nekkerlaan 27 1860 Meise, Belgium</string>
     <string name="mail">mbuscemi1999@gmail.com</string>
+    <string name="contactTitel">Contact us through message!</string>
+    <string name="contactTo">To</string>
+    <string name="contactOnderwerp">Subject</string>
+    <string name="contactMessage">Message</string>
+    <string name="contactSend">Send</string>
 </resources>

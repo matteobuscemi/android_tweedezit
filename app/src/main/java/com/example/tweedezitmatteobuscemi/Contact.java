@@ -2,11 +2,18 @@ package com.example.tweedezitmatteobuscemi;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.FragmentActivity;
 
+import android.app.Dialog;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -17,14 +24,34 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Contact extends FragmentActivity implements OnMapReadyCallback {
-
+    EditText etTo,etSubject,etMessage;
+    Button btSend;
     GoogleMap map;
+    Dialog myDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
 
+        /*etTo = findViewById(R.id.et_to);
+        etSubject = findViewById(R.id.et_subject);
+        etMessage = findViewById(R.id.et_message);
+        btSend = findViewById(R.id.bt_send);
+
+        btSend.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View w) {
+               Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:" + etTo.getText().toString()));
+               intent.putExtra(Intent.EXTRA_SUBJECT,etSubject.getText().toString());
+               intent.putExtra(Intent.EXTRA_TEXT,etMessage.getText().toString());
+               startActivity(intent);
+            }
+        });*/
+
+        myDialog = new Dialog(this);
+
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         //Initialize And Assing Variable
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
@@ -58,6 +85,11 @@ public class Contact extends FragmentActivity implements OnMapReadyCallback {
         mapFragment.getMapAsync(this);
     }
 
+    public void ShowPopup (View v) {
+        myDialog.setContentView(R.layout.custompopupcontact);
+        myDialog.show();
+
+    }
     @Override
     public void onMapReady(GoogleMap googleMap) {
         map = googleMap;

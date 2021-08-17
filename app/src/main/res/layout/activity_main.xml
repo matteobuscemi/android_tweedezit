@@ -35,7 +35,9 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="@color/colorPrimary"
         android:textSize="34sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="132dp" />
 
     <TextView
         android:id="@+id/homeBeschrijving"
