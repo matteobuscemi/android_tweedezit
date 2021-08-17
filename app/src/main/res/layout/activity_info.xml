@@ -62,6 +62,7 @@
         android:text="@string/infoBtn1" />
 
     <Button
+        android:onClick="ShowPopup3"
         android:id="@+id/btnInfo3"
         android:layout_width="325dp"
         android:layout_height="wrap_content"
@@ -75,6 +76,7 @@
         android:text="@string/infoBtn3" />
 
     <Button
+        android:onClick="ShowPopup2"
         android:id="@+id/btnInfo2"
         android:layout_width="325dp"
         android:layout_height="wrap_content"
@@ -88,6 +90,7 @@
         android:text="@string/infoBtn2" />
 
     <Button
+        android:onClick="ShowPopup4"
         android:id="@+id/btnInfo4"
         android:layout_width="325dp"
         android:layout_height="wrap_content"

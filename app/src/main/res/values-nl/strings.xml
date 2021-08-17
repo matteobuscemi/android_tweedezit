@@ -7,12 +7,40 @@
 
     <string name="infoTitel">Informatie</string>
     <string name="infoBeschrijving">Om je leven makkelijker te maken hebben we alle informatie die je bij ons kan vinden opgesomd om onnodig scrollen te vermijden!</string>
+
     <string name="infoBtn1">Wat is cyberbullying?</string>
     <string name="infoBtn1a">As the name suggests, cyberbullying is bullying in a digital space, such as on phones, computers, tablets, etc., in arenas such as text messaging, social media, forums, online gaming, and more.</string>
     <string name="infoBtn1b">Even in 2021, bullying is still a problem for most people. 73 percent of students feel they have been bullied in their lifetime, and 44 percent say it\'s happened in the last 30 days.</string>
     <string name="infoBtn1c">It should come as no surprise that cyberbullying has become such an issue. All that has really happened is that an age-old problem has made its way into the digital world. </string>
     <string name="infoBtn1d">One could argue that cyberbullying is more damaging than traditional in-person bullying because it can happen at any moment during any day. The words people use to bully are out there in the digital space, and so cyberbullying is more difficult to spot, meaning it often goes unnoticed. </string>
+
     <string name="infoBtn2">Is cyberbullying een groot probleem in de hedendaagse samenleving?</string>
+    <string name="infoBtn2a">To see how big of a problem this is, here are all the stats about cyberbullying from 2021 that you need to know: </string>
+    <string name="infoBtn2b">- Overall, 36.5 percent of people feel they have been cyberbullied in their lifetime, and 17.4 percent have reported it has happened at some point in the last 30 days.</string>
+    <string name="infoBtn2c">- 60 percent of teenagers have experienced some sort of cyberbullying</string>
+    <string name="infoBtn2d">- 70 percent of teenagers have reported someone spreading rumors about them online</string>
+    <string name="infoBtn2e">- 95 percent of teenagers are connected to the internet, and 85 percent use social media</string>
+    <string name="infoBtn2f">An Imminent Threat</string>
+    <string name="infoBtn2g">These numbers show that cyberbullying is not some tiny problem experienced by just a select few individuals but instead is a widespread issue in society. Therefore, we all must understand what cyberbullying is, why it happens, how to stop it, and how to help victims. </string>
+
     <string name="infoBtn3">Waar worden mensen gecyberbullied?</string>
+    <string name="infoBtn3a">To tackle the problem of bullying and cyberbullying, it\'s important to look at why people are cyberbullied. The stats below shows us some of the main reasons why people get attacked online:</string>
+    <string name="infoBtn3b">- 61% appearance</string>
+    <string name="infoBtn3c">- 25% academic achievement/intelligence</string>
+    <string name="infoBtn3d">- 17% race</string>
+    <string name="infoBtn3e">- 15% sexuality</string>
+    <string name="infoBtn3f">- 15% financial status</string>
+    <string name="infoBtn3g">- 11% religion</string>
+    <string name="infoBtn3h">- 20% other</string>
+
     <string name="infoBtn4">Waarom worden mensen gecyberbullied?</string>
+    <string name="infoBtn4a">At this point, it should be clear that cyberbullying is a significant problem in today\'s society. But where does cyberbullying occur?</string>
+    <string name="infoBtn4b">To get a little bit deeper into the problems cyberbullying causes, take a look at the following data provided by Ditch The Label, one of the world\'s leading anti-bullying organizations. </string>
+    <string name="infoBtn4c">They asked students to indicate on which social media platforms they had experienced cyberbullying, and here are the results: </string>
+    <string name="infoBtn4d">- 42% Instagram</string>
+    <string name="infoBtn4e">- 37% Facebook</string>
+    <string name="infoBtn4f">- 31% Snapchat</string>
+    <string name="infoBtn4g">- 12% WhatsApp</string>
+    <string name="infoBtn4h">- 10% YouTube</string>
+    <string name="infoBtn4i">- 9% Twitter</string>
 </resources>

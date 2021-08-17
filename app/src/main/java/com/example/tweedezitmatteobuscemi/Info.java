@@ -25,6 +25,7 @@ public class Info extends AppCompatActivity {
         myDialog = new Dialog(this);
 
 
+
         //Initialize And Assing Variable
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
@@ -58,6 +59,45 @@ public class Info extends AppCompatActivity {
     public void ShowPopup (View v) {
         TextView txtclose;
         myDialog.setContentView(R.layout.custompopup);
+        txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
+        txtclose.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                myDialog.dismiss();
+            }
+        });
+        myDialog.show();
+
+    }
+    public void ShowPopup2 (View v) {
+        TextView txtclose;
+        myDialog.setContentView(R.layout.custompopup2);
+        txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
+        txtclose.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                myDialog.dismiss();
+            }
+        });
+        myDialog.show();
+
+    }
+    public void ShowPopup3 (View v) {
+        TextView txtclose;
+        myDialog.setContentView(R.layout.custompopup4);
+        txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
+        txtclose.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                myDialog.dismiss();
+            }
+        });
+        myDialog.show();
+
+    }
+    public void ShowPopup4 (View v) {
+        TextView txtclose;
+        myDialog.setContentView(R.layout.custompopup3);
         txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
         txtclose.setOnClickListener(new View.OnClickListener(){
             @Override
