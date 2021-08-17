@@ -7,13 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".Info">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Information"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
@@ -24,5 +18,86 @@
         app:itemIconTint="@color/white"
         app:menu="@menu/menu_navigation"
         android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/infoTitel"
+        android:textColor="@color/colorPrimary"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/infoBeschrijving"
+        android:textSize="16sp" />
+
+    <Button
+        android:onClick="ShowPopup"
+        android:id="@+id/btnInfo1"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/infoBtn1" />
+
+    <Button
+        android:id="@+id/btnInfo3"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInfo2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/infoBtn3" />
+
+    <Button
+        android:id="@+id/btnInfo2"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInfo1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/infoBtn2" />
+
+    <Button
+        android:id="@+id/btnInfo4"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInfo3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/infoBtn4" />
 
 </RelativeLayout>

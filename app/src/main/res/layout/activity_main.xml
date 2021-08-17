@@ -7,13 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Home"
-        android:textSize="50sp"
-        android:textStyle="bold" />
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,6 +16,52 @@
             app:itemIconTint="@color/white"
             app:menu="@menu/menu_navigation"
             android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/homeTitel"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="132dp"
+        android:scrollbarThumbHorizontal="@android:color/primary_text_dark"
+        android:text="@string/homeTitel"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/homeBeschrijving"
+        android:layout_width="317dp"
+        android:layout_height="89dp"
+        android:layout_below="@+id/homeTitel"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/homeBeschrijving"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="352dp"
+        android:layout_height="286dp"
+        android:layout_below="@+id/homeBeschrijving"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="158dp"
+        app:srcCompat="@drawable/cyberbully_banner" />
 
 
 </RelativeLayout>

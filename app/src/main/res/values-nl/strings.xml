@@ -2,6 +2,17 @@
 <resources>
     <string name="app_name">Cyberbully Alert</string>
 
-    <string name="title">Koekjes</string>
+    <string name="homeTitel">Welkom op de Cyberbully App!</string>
+    <string name="homeBeschrijving">Op deze applicatie vind je informatie over alles betreffende cyberbullying, hoe het te voorkomen/bestrijden en een aantal hulplijnen indien je deze nodig hebt!</string>
 
+    <string name="infoTitel">Informatie</string>
+    <string name="infoBeschrijving">Om je leven makkelijker te maken hebben we alle informatie die je bij ons kan vinden opgesomd om onnodig scrollen te vermijden!</string>
+    <string name="infoBtn1">Wat is cyberbullying?</string>
+    <string name="infoBtn1a">As the name suggests, cyberbullying is bullying in a digital space, such as on phones, computers, tablets, etc., in arenas such as text messaging, social media, forums, online gaming, and more.</string>
+    <string name="infoBtn1b">Even in 2021, bullying is still a problem for most people. 73 percent of students feel they have been bullied in their lifetime, and 44 percent say it\'s happened in the last 30 days.</string>
+    <string name="infoBtn1c">It should come as no surprise that cyberbullying has become such an issue. All that has really happened is that an age-old problem has made its way into the digital world. </string>
+    <string name="infoBtn1d">One could argue that cyberbullying is more damaging than traditional in-person bullying because it can happen at any moment during any day. The words people use to bully are out there in the digital space, and so cyberbullying is more difficult to spot, meaning it often goes unnoticed. </string>
+    <string name="infoBtn2">Is cyberbullying een groot probleem in de hedendaagse samenleving?</string>
+    <string name="infoBtn3">Waar worden mensen gecyberbullied?</string>
+    <string name="infoBtn4">Waarom worden mensen gecyberbullied?</string>
 </resources>
