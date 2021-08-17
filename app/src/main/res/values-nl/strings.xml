@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Cyberbully Alert</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_info">Informatie</string>
+    <string name="menu_contact">Contacteer Ons</string>
 
     <string name="homeTitel">Welkom op de Cyberbully App!</string>
     <string name="homeBeschrijving">Op deze applicatie vind je informatie over alles betreffende cyberbullying, hoe het te voorkomen/bestrijden en een aantal hulplijnen indien je deze nodig hebt!</string>
@@ -9,34 +12,34 @@
     <string name="infoBeschrijving">Om je leven makkelijker te maken hebben we alle informatie die je bij ons kan vinden opgesomd om onnodig scrollen te vermijden!</string>
 
     <string name="infoBtn1">Wat is cyberbullying?</string>
-    <string name="infoBtn1a">As the name suggests, cyberbullying is bullying in a digital space, such as on phones, computers, tablets, etc., in arenas such as text messaging, social media, forums, online gaming, and more.</string>
-    <string name="infoBtn1b">Even in 2021, bullying is still a problem for most people. 73 percent of students feel they have been bullied in their lifetime, and 44 percent say it\'s happened in the last 30 days.</string>
-    <string name="infoBtn1c">It should come as no surprise that cyberbullying has become such an issue. All that has really happened is that an age-old problem has made its way into the digital world. </string>
-    <string name="infoBtn1d">One could argue that cyberbullying is more damaging than traditional in-person bullying because it can happen at any moment during any day. The words people use to bully are out there in the digital space, and so cyberbullying is more difficult to spot, meaning it often goes unnoticed. </string>
+    <string name="infoBtn1a">Zoals de naam al zegt, is cyberpesten pesten in een digitale ruimte, zoals op telefoons, computers, tablets, enz., in arena\'s zoals sms, sociale media, forums, online gaming, en nog veel meer.</string>
+    <string name="infoBtn1b">Zelfs in 2021 is pesten nog steeds een probleem voor de meeste mensen. 73 procent van de scholieren denkt in hun leven wel eens te zijn gepest, en 44 procent zegt dat dat in de afgelopen 30 dagen is gebeurd.</string>
+    <string name="infoBtn1c">Het hoeft niet te verbazen dat cyberpesten zo\'n probleem is geworden. Het enige wat er werkelijk is gebeurd, is dat een eeuwenoud probleem zijn weg heeft gevonden naar de digitale wereld. </string>
+    <string name="infoBtn1d">Je zou kunnen stellen dat cyberpesten schadelijker is dan het traditionele pesten van mensen, omdat het op elk moment van de dag kan gebeuren. De woorden die mensen gebruiken om te pesten bevinden zich in de digitale ruimte, en dus is cyberpesten moeilijker op te merken, wat betekent dat het vaak onopgemerkt blijft. </string>
 
     <string name="infoBtn2">Is cyberbullying een groot probleem in de hedendaagse samenleving?</string>
-    <string name="infoBtn2a">To see how big of a problem this is, here are all the stats about cyberbullying from 2021 that you need to know: </string>
-    <string name="infoBtn2b">- Overall, 36.5 percent of people feel they have been cyberbullied in their lifetime, and 17.4 percent have reported it has happened at some point in the last 30 days.</string>
-    <string name="infoBtn2c">- 60 percent of teenagers have experienced some sort of cyberbullying</string>
-    <string name="infoBtn2d">- 70 percent of teenagers have reported someone spreading rumors about them online</string>
-    <string name="infoBtn2e">- 95 percent of teenagers are connected to the internet, and 85 percent use social media</string>
-    <string name="infoBtn2f">An Imminent Threat</string>
-    <string name="infoBtn2g">These numbers show that cyberbullying is not some tiny problem experienced by just a select few individuals but instead is a widespread issue in society. Therefore, we all must understand what cyberbullying is, why it happens, how to stop it, and how to help victims. </string>
+    <string name="infoBtn2a">Om te zien hoe groot dit probleem is, zijn hier alle statistieken over cyberpesten uit 2021 die je moet weten: </string>
+    <string name="infoBtn2b">- Over het geheel genomen denkt 36,5 procent van de mensen wel eens te zijn gecyberpest, en 17,4 procent heeft gemeld dat dit in de afgelopen 30 dagen is gebeurd.</string>
+    <string name="infoBtn2c">- 60 procent van de tieners heeft te maken gehad met cyberpesten</string>
+    <string name="infoBtn2d">- 70 procent van de tieners heeft wel eens verteld dat iemand online geruchten over hen verspreidt</string>
+    <string name="infoBtn2e">- 95 procent van de tieners is aangesloten op het internet en 85 procent gebruikt sociale media</string>
+    <string name="infoBtn2f">Een imminente dreiging</string>
+    <string name="infoBtn2g">Uit deze cijfers blijkt dat cyberpesten niet een klein probleem is dat slechts een paar mensen treft, maar een wijdverbreid probleem in de samenleving. Daarom moeten we allemaal begrijpen wat cyberpesten is, waarom het gebeurt, hoe we het kunnen stoppen en hoe we slachtoffers kunnen helpen. </string>
 
     <string name="infoBtn3">Waar worden mensen gecyberbullied?</string>
-    <string name="infoBtn3a">To tackle the problem of bullying and cyberbullying, it\'s important to look at why people are cyberbullied. The stats below shows us some of the main reasons why people get attacked online:</string>
-    <string name="infoBtn3b">- 61% appearance</string>
-    <string name="infoBtn3c">- 25% academic achievement/intelligence</string>
-    <string name="infoBtn3d">- 17% race</string>
-    <string name="infoBtn3e">- 15% sexuality</string>
-    <string name="infoBtn3f">- 15% financial status</string>
-    <string name="infoBtn3g">- 11% religion</string>
-    <string name="infoBtn3h">- 20% other</string>
+    <string name="infoBtn3a">Om het probleem van pesten en cyberpesten aan te pakken, is het belangrijk te kijken naar de redenen waarom mensen worden gecyberpest. De statistieken hieronder tonen ons enkele van de belangrijkste redenen waarom mensen online worden aangevallen:</string>
+    <string name="infoBtn3b">- 61% uiterlijk</string>
+    <string name="infoBtn3c">- 25% academische prestaties/intelligentie</string>
+    <string name="infoBtn3d">- 17% etniciteit</string>
+    <string name="infoBtn3e">- 15% sexualiteit</string>
+    <string name="infoBtn3f">- 15% financieel statuut</string>
+    <string name="infoBtn3g">- 11% religie</string>
+    <string name="infoBtn3h">- 20% andere</string>
 
     <string name="infoBtn4">Waarom worden mensen gecyberbullied?</string>
-    <string name="infoBtn4a">At this point, it should be clear that cyberbullying is a significant problem in today\'s society. But where does cyberbullying occur?</string>
-    <string name="infoBtn4b">To get a little bit deeper into the problems cyberbullying causes, take a look at the following data provided by Ditch The Label, one of the world\'s leading anti-bullying organizations. </string>
-    <string name="infoBtn4c">They asked students to indicate on which social media platforms they had experienced cyberbullying, and here are the results: </string>
+    <string name="infoBtn4a">Het moge duidelijk zijn dat cyberpesten een groot probleem is in de hedendaagse samenleving. Maar waar komt cyberpesten voor?</string>
+    <string name="infoBtn4b">Om wat dieper in te gaan op de problemen die cyberpesten veroorzaakt, kijk eens naar de volgende gegevens van Ditch The Label, een van \'s werelds toonaangevende anti-pestorganisaties. </string>
+    <string name="infoBtn4c">Zij vroegen studenten aan te geven op welke sociale-mediaplatforms zij te maken hadden gehad met cyberpesten, en hier zijn de resultaten: </string>
     <string name="infoBtn4d">- 42% Instagram</string>
     <string name="infoBtn4e">- 37% Facebook</string>
     <string name="infoBtn4f">- 31% Snapchat</string>

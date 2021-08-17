@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Cyberbully Alert</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_info">Information</string>
+    <string name="menu_contact">Contact Us</string>
 
     <string name="homeTitel">Welcome to the Cyberbully App!</string>
     <string name="homeBeschrijving">On this application you can find all sorts of information about cyberbullying, how you can prevent/combat it and a list of guides that can help you if needed!</string>
